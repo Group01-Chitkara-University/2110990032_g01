@@ -23,7 +23,7 @@ if (e1.salary > e2.salary)
     {
         cout << e2.name << " has the greater salary.";
     }
-
+cout<<"employee salary";
 
 
 
