@@ -15,7 +15,14 @@ int main()
     cin >> e1.id >> e1.name >> e1.salary;
     cin >> e2.id >> e2.name >> e2.salary;
 
-
+if (e1.salary > e2.salary)
+    {
+        cout << e1.name << " has the greater salary.";
+    }
+    else
+    {
+        cout << e2.name << " has the greater salary.";
+    }
 
 
 
